@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cardgames</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff0000;
+            color: #ffffff;
+            font-size: 2em;
+            border-radius: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .cardgame {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+        }
+
+        .cardgame {
+            position: relative;
+        }
+
+        
+
+        .hover-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 10px;
+            font-style: italic;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            color: #000000;
+            opacity: 0;
+            transition: opacity 0.5s; /* Smooth transition */
+        }
+
+         /*Show the hover text when you hover over the cardgame div*/
+        .cardgame:hover .hover-text {
+            opacity: 1;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .textbox {
+            width: 250px;
+            height: 150px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            overflow: hidden;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        ol {
+            margin: 20px auto;
+            width: 500px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333333;
+            list-style-position: inside;
+            line-height: 1.6;  
+        }
+
+        .signature {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            font-size: 12px;
+            text-align: right;
+        }
+
+        ol li:first-child span {
+            color: transparent;          
+        }
+
+        
+        ol li:first-child:hover span {
+            color: #333333;
+        }
+               
+    </style>
+</head>
+<body>
+    <h1>Cardgames</h1>
+    <h3>Some different and interesting cardgames</h3>
+
+    <div class="container">
+    
+    <div class="cardgame">
+        <img src="Cardgames/iStock-182174653.jpg" alt="Bridge Image"
+        >
+        <div class="textbox"><p>Bridge is a game that requries strategy,
+             teamwork, and mental agility. It's a game that can be
+             enjoyed by people of all ages. Whether you are a seasons
+             player or a beginner, there's always something new to
+             learn in bridge.</p>
+        </div>
+        <div class="hover-text">Bridge</div>
+    </div>
+
+    <div class="cardgame">
+        <img src="Cardgames/c-m-coolidge-82531_640.jpg" alt="Poker Image">
+        <div class="textbox"><p>Poker is a cardgame that combines elements
+             of chance and strategy. Players bet on their hand's strength,
+             poker is a game that requires both luck and skill.</p>
+        </div>
+        <div class="hover-text">Poker</div>
+    </div>
+    
+    <div class="cardgame">
+        <img src="Cardgames/iStock-473565802.jpg" alt="Blackjack Image">
+        <div class="textbox"><p>Blackjack is a strategic and potentially
+             beatable cardgame with skilled play. It involves card counting
+             and basic strategy. However, gaining an advantage over the 
+             casino is usually never an easy task.</p>
+        </div>
+        <div class="hover-text">Blackjack</div>
+    </div>
+</div>
+        
+<body>
+    <h3>Some Introduction to Different Cardgames</h3>
+    <ol>
+        <li><span> Bridge is a four-player, game divided
+             into two phases: bidding and play. Teams compete to
+             win tricks based on the strength of their hands and
+             the bids they have made. Communication and strategy
+             are key.</span></li></li><br>
+
+        <li> Poker is a card game in which players place bets on
+             who has the best hand according to variable rules
+             depending on the type of poker you're playing.</li><br>
+
+        <li> Blackjack is a classic casino game of luck and strategy.
+             The goal of the game is to have your cards add up to 21
+             or as close to 21 as you can to beat the dealer.</li><br>
+
+        <li> Spades is a casual card game developed in the 1930's in
+             the USA. Spades is played with a basic set of 52 cards and
+             card value ranks from 2, the lowest, to Ace, the highest.</li><br>
+
+        <li> Kille, also called Harlequin, Cambio, Campio, Kambio or
+             Kamfio, is a game played with special playing cards, 
+             dating from a mediaeval French gambling game. In Sweden,
+             the game had its heyday during the 1750s, but it is one
+             of the oldest card games still played.</li><br>
+
+        <li> Vira is a trick-taking game. The actual trick play is
+             preceded by an auction, as in Bridge. The player who bids
+             the highest contract plays against the other two players.</li><br>
+
+        <li> Hearts is a trick taking game where players try to go for
+             the lowest score possible by avoiding any Hearts and
+             especially the Queen of Spades.</li>
+    </ol>
+
+    <div class="signature">
+        &copy; Peter
+    </div>
+</body>
+</html>
